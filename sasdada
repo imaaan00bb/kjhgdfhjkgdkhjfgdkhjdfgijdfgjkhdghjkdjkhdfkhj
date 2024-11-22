@@ -1,0 +1,84 @@
+--rex script hub
+print("rex on top")
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "sigma rex script hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local iy = Window:MakeTab({
+	Name = "Infinite Yield",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+iy:AddButton({
+	Name = "Run Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  	end    
+})
+
+local pl = Window:MakeTab({
+	Name = "Prison Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+pl:AddButton({
+	Name = "Run Script",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+  	end    
+})
+
+local p2l = Window:MakeTab({
+	Name = "Project Ligma",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+p2l:AddButton({
+	Name = "Run Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/mermaid-RP-F3X-Project-Ligma-Backdoored-20529"))()
+    end    
+})
+
+local bb = Window:MakeTab({
+	Name = "Bladeball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+bb:AddButton({
+	Name = "Run Script",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHubX/refs/heads/main/PitbullHubX.lua", true))()
+    end    
+})
+
+local gt = Window:MakeTab({
+	Name = "Gorilla Tag Rex",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+gt:AddButton({
+	Name = "Run Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/imaaan00bb/gtagrblx/refs/heads/main/OPENSOURCEREX", true))()
+    end    
+})
+
+local dh = Window:MakeTab({
+	Name = "Dahood Rex",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+dh:AddButton({
+	Name = "Run Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/imaaan00bb/DaHoodRex/refs/heads/main/RexUtil", true))()
+    end    
+})
